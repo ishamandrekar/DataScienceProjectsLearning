@@ -39,7 +39,7 @@ When a person applies for a loan, there are two types of decisions that could be
 
 2. Loan rejected: The company had rejected the loan (because the candidate does not meet their requirements etc.). 
                   
-                  Since the loan was rejected, there is no transactional history of those applicants with the company and                     so this data is not available with the company (and thus in this dataset)
+Since the loan was rejected, there is no transactional history of those applicants with the company and  so this data is not available with the company (and thus in this dataset)
  
 
 ### Business Objectives
