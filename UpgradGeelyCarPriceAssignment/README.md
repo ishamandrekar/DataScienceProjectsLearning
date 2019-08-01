@@ -37,3 +37,12 @@ r2_score(y_test, y_pred)
 where y_test is the test data set for the target variable, and y_pred is the variable containing the predicted values of the target variable on the test set.
 
 Please don't forget to perform this step as the R-squared score on the test set holds some marks. The variable names inside the 'r2_score' function can be different based on the variable names you have chosen.
+
+Since the notebook containing the solution does not render on GITHUB, proving the link below to view on nbviewer. This is opening only half he notebook, need to check on this.
+
+This solution uses Linear Regression, Recursive Feature Elimination RFE from sklearn.feature_selection. After selecting N features, later manual feature elimination is done looking at Adjusted R Squared value using Linear Regression using statsmodels.api Ordinary Least Squares OLS Summary. Variable Significance looking at P values for each variable and VIF for each variable using statsmodels.stats.outliers_influence variance_inflation_factor, to arrive finally at an optimal value of Adjusted R Squared.
+
+https://nbviewer.jupyter.org/github/ishamandrekar/DataScienceProjectsLearning/blob/master/UpgradGeelyCarPriceAssignment/Geely_car_price_assignment_linear_regression_RFE_plus_manual_feature_elimination.ipynb
+
+In future I will keep adding more solution links to the same Geely Car Price Problem below which use more techniques for Feature Selection/Elimination/Dimentionaly Reduction like Lasso, Ridge Regression, PRinciple Component Analysis(PCA), chooseing optimal N for RFE using GridSearchCrossValidation etc.
+
