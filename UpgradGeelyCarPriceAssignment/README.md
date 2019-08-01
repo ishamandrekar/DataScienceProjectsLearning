@@ -40,7 +40,7 @@ Please don't forget to perform this step as the R-squared score on the test set 
 
 Since the notebook containing the solution does not render on GITHUB, proving the link below to view on nbviewer. This is opening only half he notebook, need to check on this.
 
-This solution uses Linear Regression, Recursive Feature Elimination RFE from sklearn.feature_selection. After selecting N features, later manual feature elimination is done looking at Adjusted R Squared value using Linear Regression using statsmodels.api Ordinary Least Squares OLS Summary. Variable Significance looking at P values for each variable and VIF for each variable using statsmodels.stats.outliers_influence variance_inflation_factor, to arrive finally at an optimal value of Adjusted R Squared.
+Below solution uses Linear Regression, Recursive Feature Elimination RFE from sklearn.feature_selection. After selecting N features, later manual feature elimination is done looking at Adjusted R Squared value using Linear Regression using statsmodels.api Ordinary Least Squares OLS Summary. Variable Significance looking at P values for each variable and VIF for each variable using statsmodels.stats.outliers_influence variance_inflation_factor, to arrive finally at an optimal value of Adjusted R Squared.
 
 https://nbviewer.jupyter.org/github/ishamandrekar/DataScienceProjectsLearning/blob/master/UpgradGeelyCarPriceAssignment/Geely_car_price_assignment_linear_regression_RFE_plus_manual_feature_elimination.ipynb
 
