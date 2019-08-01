@@ -44,5 +44,5 @@ This solution uses Linear Regression, Recursive Feature Elimination RFE from skl
 
 https://nbviewer.jupyter.org/github/ishamandrekar/DataScienceProjectsLearning/blob/master/UpgradGeelyCarPriceAssignment/Geely_car_price_assignment_linear_regression_RFE_plus_manual_feature_elimination.ipynb
 
-In future I will keep adding more solution links to the same Geely Car Price Problem below which use more techniques for Feature Selection/Elimination/Dimentionaly Reduction like Lasso, Ridge Regression, PRinciple Component Analysis(PCA), chooseing optimal N for RFE using GridSearchCrossValidation etc.
+In future I will keep adding more solution links to the same Geely Car Price Problem below which use more techniques for Feature Selection/Elimination/Dimentionaly Reduction like Lasso, Ridge Regression, Principle Component Analysis(PCA), choosing optimal N for RFE using GridSearchCrossValidation etc.
 
