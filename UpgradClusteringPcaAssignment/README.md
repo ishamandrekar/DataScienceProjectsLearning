@@ -14,4 +14,4 @@ Your main task is to cluster the countries by the factors mentioned above and th
 
 Since the notebook containing the solution does not render on GITHUB, providing the link below to view on nbviewer.
 
-https://nbviewer.jupyter.org/github/ishamandrekahttps://nbviewer.jupyter.org/github/ishamandrekar/DataScienceProjectsLearning/blob/master/UpgradClusteringPcaAssignment/Clustering_and_pca_assignment.ipynb
+https://nbviewer.jupyter.org/github/ishamandrekar/DataScienceProjectsLearning/blob/master/UpgradClusteringPcaAssignment/Clustering_and_pca_assignment.ipynb
