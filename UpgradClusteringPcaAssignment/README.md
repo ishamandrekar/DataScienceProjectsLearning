@@ -11,3 +11,7 @@ And this is where you come in as a data analyst. Your job is to categorise the c
 
 #### Objectives
 Your main task is to cluster the countries by the factors mentioned above and then present your solution and recommendations to the CEO using a PPT. You are also supposed to use dimensionality reduction using PCA to get the visualisations of the clusters in a 2-D form. 
+
+Since the notebook containing the solution does not render on GITHUB, providing the link below to view on nbviewer.
+
+https://nbviewer.jupyter.org/github/ishamandrekahttps://nbviewer.jupyter.org/github/ishamandrekar/DataScienceProjectsLearning/blob/master/UpgradClusteringPcaAssignment/Clustering_and_pca_assignment.ipynb
