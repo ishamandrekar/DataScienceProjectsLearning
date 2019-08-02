@@ -73,7 +73,7 @@ Now, there are broadly three types of variables -
 
 Now, the customer behaviour variables are not available at the time of loan application, and thus they cannot be used as predictors for credit approval.
 
-Since the notebook containing the solution does not render on GITHUB, proving the link below to view on nbviewer.
+Since the notebook containing the solution does not render on GITHUB, providing the link below to view on nbviewer.
 
 https://nbviewer.jupyter.org/github/ishamandrekar/DataScienceProjectsLearning/blob/master/UpgradGramenerCaseStudy/Gramener_case_study.ipynb
 
