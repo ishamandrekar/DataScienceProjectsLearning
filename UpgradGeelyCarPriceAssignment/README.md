@@ -38,7 +38,7 @@ where y_test is the test data set for the target variable, and y_pred is the var
 
 Please don't forget to perform this step as the R-squared score on the test set holds some marks. The variable names inside the 'r2_score' function can be different based on the variable names you have chosen.
 
-Since the notebook containing the solution does not render on GITHUB, proving the link below to view on nbviewer. This is opening only half he notebook, need to check on this.
+Since the notebook containing the solution does not render on GITHUB, providing the link below to view on nbviewer. This is opening only half he notebook, need to check on this.
 
 Below solution uses Linear Regression, Recursive Feature Elimination RFE from sklearn.feature_selection. After selecting N features, later manual feature elimination is done looking at Adjusted R Squared value using Linear Regression using statsmodels.api Ordinary Least Squares OLS Summary. Variable Significance looking at P values for each variable and VIF for each variable using statsmodels.stats.outliers_influence variance_inflation_factor, to arrive finally at an optimal value of Adjusted R Squared.
 
