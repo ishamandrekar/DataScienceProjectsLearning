@@ -88,3 +88,10 @@ How can you make sure that a model is robust and generalisable? What are the imp
  
 
 As you have determined the optimal value of lambda for ridge and lasso regression during the assignment, which one would you choose to apply and why?
+
+
+
+
+Since the notebook containing the solution does not render on GITHUB, providing the link below to view on nbviewer.
+
+https://nbviewer.jupyter.org/github/ishamandrekar/DataScienceProjectsLearning/blob/master/UpgradAdvancedRegressionAssignment/Advanced_Regression_Assignment.ipynb
