@@ -1,0 +1,57 @@
+[{
+  "data": "[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n",
+  "stream_name": "stderr",
+  "time": 1.6907327240041923
+},{
+  "data": "[NbConvertApp] Executing notebook with kernel: python3\n",
+  "stream_name": "stderr",
+  "time": 4.2607738110018545
+},{
+  "data": "No we will not be able to pay back our loan and afford our next book purchase order\n",
+  "stream_name": "stdout",
+  "time": 709.6324537910041
+},{
+  "data": "Initial Loan Amount: 135546.42\n",
+  "stream_name": "stdout",
+  "time": 709.7294695560049
+},{
+  "data": "Total revenue Last Month Assortment: 116024.76\n",
+  "stream_name": "stdout",
+  "time": 709.8273025160015
+},{
+  "data": "sh: 1: Syntax error: \"(\" unexpected\n",
+  "stream_name": "stderr",
+  "time": 709.9339032330026
+},{
+  "data": "Loan Pending: 19521.66\n",
+  "stream_name": "stdout",
+  "time": 710.045481525005
+},{
+  "data": "Predicted revenue Next Month Assortment: -67679.99999999997\n",
+  "stream_name": "stdout",
+  "time": 710.1593314150014
+},{
+  "data": "Total Spending required for Next Month Purchase: 24155.51\n",
+  "stream_name": "stdout",
+  "time": 710.2733796550019
+},{
+  "data": "[NbConvertApp] Writing 1241188 bytes to __notebook__.ipynb\n",
+  "stream_name": "stderr",
+  "time": 711.9673139880033
+},{
+  "data": "[NbConvertApp] Converting notebook __notebook__.ipynb to html\n",
+  "stream_name": "stderr",
+  "time": 713.016065378004
+},{
+  "data": "[NbConvertApp] Support files will be in __results___files/\n[NbConvertApp] Making directory __results___files\n",
+  "stream_name": "stderr",
+  "time": 714.783579914998
+},{
+  "data": "[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n",
+  "stream_name": "stderr",
+  "time": 714.7853400439999
+},{
+  "data": "[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Making directory __results___files\n[NbConvertApp] Writing 629667 bytes to __results__.html\n",
+  "stream_name": "stderr",
+  "time": 714.7868011840037
+}]

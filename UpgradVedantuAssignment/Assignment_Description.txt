@@ -1,0 +1,51 @@
+
+1. Which machine learning model you chose to use and why?
+   I used Random Forests. 
+   The main reason for using Random Forests is that it is not a plain vanilla classification problem of whether a customer will buy book or not.
+   For each customer, or group of similar customers, their reasons to purchase or not purchase books would be different.
+   A linear or polynomial SVM would not serve in this regard, as there could be multiple paths which lead to the decision of a customer's book purchase.
+   An ensemble of decision trees would serve this purpose out of the algoritms learnt uptil now.
+    
+2. How you validated your model and why you chose to validate it in this way 
+   The 2 csv files last assortment of books sent to customer and next assortment of books to be sent to customer.
+   Out of these 2 files, the prior one served as a training data, after merging it with customer data, book price etc.
+   This file had outcome, whether customer purchased the book or not.
+   The second file was to be used for prediction and was used that way.
+   The first file data was divided into 5 folds and with the help of GridSearchCrossValidation, first 4 folds were used for training and the last fold used for test.4
+   There were multiple runs to reach optimal parameters for the Random Forest Algorithm for the best accuracy.
+   Accuracy of around 75% was achieved with these parameters.
+
+3. How to run your script
+   My script is available to be viewed as a Kaggle Kernel below:
+   https://www.kaggle.com/ishamandrekar/vedantu-assignment?scriptVersionId=18535708
+   
+   It can be either viewed/ downloaded from there to run in local or
+   To see the final answer of the last run latest version of the kernel for the question " whether or not we can pay back our loan and afford the next
+book purchase order" follow the below steps in local PC:
+   1. In command prompt run the below:
+      pip install kaggle
+   2. Log in to your kaggle account and click on the Account menu, click Create New API Token.
+      A file named kaggle.json will get downloaded.
+      Place this file in .kaggle folder of your user folder, for me it was to be placed in below path:
+	  C:\Users\Isha\.kaggle
+   3. Now run the below command:
+      kaggle kernels output ishamandrekar/vedantu-assignment -p "path where you want to store the output file"
+	  
+	  I used like below:
+      kaggle kernels output ishamandrekar/vedantu-assignment -p C:/Users/Isha/Desktop/upgrad/Career_Services/Vedantu_Assignment/assignment	 
+
+    I am also attaching the output file produced with the mail.	  
+      	  
+
+4. Any other features you would want to use (other data points you want to capture)
+   I created a feature user_purchase_score, which was created based for each customer product combination in the prev and next assortment data.
+   This purchase score was assigned based on below calculation:
+   - find all the customers who purchased this product.
+   - fetch the user similarity score for this user and these customers, and purchase score user is the summation of (user similarity score * purchased flag(1/0))
+   - user similarity score was calculated based on user correlations, based on euclidean distance.
+   
+   Another feature which I though needed more attention was age group. 
+   For some records this age group was missing, which could be imputed in a better way based on say user similarity matrix or some other method.
+   
+5. Brief variables you would want to engineer
+   Could not think of any more apart from user_purchase_score, which I have already used.
