@@ -45,3 +45,6 @@ You can download the dataset from Kaggle here - please use train.csv to train th
  
 
 Bonus - You may want to participate in this Kaggle competition and see your rank on the leaderboard. 
+
+Kaggle Link SVM solution:
+https://www.kaggle.com/ishamandrekar/digitrecognizerusingsvm
